@@ -10,4 +10,10 @@ public class ExampleTest1 {
         Assertions.assertTrue(2>1);
 
     }
+
+    @Test
+    void ExampleTest2(){
+        Assertions.assertTrue(42>41);
+
+    }
 }

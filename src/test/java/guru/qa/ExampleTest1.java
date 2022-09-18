@@ -7,13 +7,13 @@ public class ExampleTest1 {
 
     @Test
     void ExampleTest1(){
-        Assertions.assertTrue(2>1);
+        Assertions.assertTrue(2>=1);
 
     }
 
     @Test
     void ExampleTest2(){
-        Assertions.assertTrue(42>41);
+        Assertions.assertTrue(42>=41);
 
     }
 }
